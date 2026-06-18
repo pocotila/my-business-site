@@ -10,7 +10,7 @@ export default function CancelledPage() {
       </p>
       <Link
         href="/cart"
-        className="inline-block rounded-md bg-gray-900 px-8 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
+        className="inline-block rounded-md bg-orange-500 px-8 py-3 text-sm font-semibold text-white hover:bg-orange-600 transition"
       >
         Back to Cart
       </Link>

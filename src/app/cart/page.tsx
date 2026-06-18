@@ -37,7 +37,7 @@ export default function CartPage() {
         <p className="text-gray-600 mb-8">Your cart is empty.</p>
         <Link
           href="/products"
-          className="inline-block rounded-md bg-gray-900 px-8 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
+          className="inline-block rounded-md bg-orange-500 px-8 py-3 text-sm font-semibold text-white hover:bg-orange-600 transition"
         >
           Browse Products
         </Link>
@@ -52,7 +52,7 @@ export default function CartPage() {
       <div className="divide-y divide-gray-200">
         {items.map((item) => (
           <div key={item.id} className="flex items-center gap-4 py-6">
-            <div className="relative h-20 w-20 flex-shrink-0 rounded-md bg-gray-100 overflow-hidden">
+            <div className="relative h-20 w-20 flex-shrink-0 rounded-md bg-sky-50 overflow-hidden">
               <Image
                 src={item.image}
                 alt={item.name}
@@ -97,7 +97,7 @@ export default function CartPage() {
         <button
           onClick={handleCheckout}
           disabled={loading}
-          className="mt-6 w-full rounded-md bg-gray-900 px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="mt-6 w-full rounded-md bg-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? "Redirecting to Stripe..." : "Checkout with Stripe"}
         </button>

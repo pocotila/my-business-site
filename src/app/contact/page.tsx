@@ -23,7 +23,7 @@ export default function ContactPage() {
             id="name"
             name="name"
             required
-            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-gray-900 focus:ring-1 focus:ring-gray-900 outline-none"
+            className="w-full rounded-md border border-sky-300 px-4 py-2 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none"
           />
         </div>
         <div>
@@ -38,7 +38,7 @@ export default function ContactPage() {
             id="email"
             name="email"
             required
-            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-gray-900 focus:ring-1 focus:ring-gray-900 outline-none"
+            className="w-full rounded-md border border-sky-300 px-4 py-2 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none"
           />
         </div>
         <div>
@@ -53,12 +53,12 @@ export default function ContactPage() {
             name="message"
             rows={5}
             required
-            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-gray-900 focus:ring-1 focus:ring-gray-900 outline-none"
+            className="w-full rounded-md border border-sky-300 px-4 py-2 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 outline-none"
           />
         </div>
         <button
           type="submit"
-          className="w-full rounded-md bg-gray-900 px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
+          className="w-full rounded-md bg-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-600 transition"
         >
           Send Message
         </button>

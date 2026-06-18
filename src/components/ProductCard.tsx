@@ -8,8 +8,8 @@ export default function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();
 
   return (
-    <div className="group rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-      <div className="relative h-64 bg-gray-100">
+    <div className="group rounded-xl border border-sky-200 overflow-hidden hover:shadow-lg transition-shadow">
+      <div className="relative h-64 bg-sky-50">
         <Image
           src={product.image}
           alt={product.name}
@@ -29,7 +29,7 @@ export default function ProductCard({ product }: { product: Product }) {
           <span className="text-xl font-bold">${product.price.toFixed(2)}</span>
           <button
             onClick={() => addItem(product)}
-            className="rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition"
+            className="rounded-md bg-orange-500 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-600 transition"
           >
             Add to Cart
           </button>

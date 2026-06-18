@@ -8,19 +8,19 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-gray-900 to-gray-700 text-white">
+      <section className="bg-gradient-to-br from-sky-600 to-sky-400 text-white">
         <div className="mx-auto max-w-7xl px-6 py-24 text-center lg:py-32">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl">
             StreetWear Co.
           </h1>
-          <p className="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="mt-6 text-lg text-sky-100 max-w-2xl mx-auto">
             Premium sports &amp; casual clothing designed for your everyday
             style. Comfort meets performance.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/products"
-              className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-gray-900 shadow hover:bg-gray-100 transition"
+              className="rounded-md bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-orange-600 transition"
             >
               Shop Now
             </Link>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="text-center mt-12">
           <Link
             href="/products"
-            className="inline-block rounded-md bg-gray-900 px-8 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
+            className="inline-block rounded-md bg-orange-500 px-8 py-3 text-sm font-semibold text-white hover:bg-orange-600 transition"
           >
             View All Products
           </Link>
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Value Props */}
-      <section className="bg-gray-50 py-16">
+      <section className="bg-sky-50 py-16">
         <div className="mx-auto max-w-7xl px-6 grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
           <div>
             <div className="text-4xl mb-4">🚚</div>

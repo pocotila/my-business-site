@@ -9,9 +9,9 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200">
+      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-sky-200">
       <nav className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
-        <Link href="/" className="text-xl font-extrabold tracking-tight">
+        <Link href="/" className="text-xl font-extrabold tracking-tight text-sky-700">
           StreetWear Co.
         </Link>
 
@@ -32,7 +32,7 @@ export default function Header() {
           >
             Cart
             {totalItems > 0 && (
-              <span className="absolute -top-2 -right-4 bg-gray-900 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+              <span className="absolute -top-2 -right-4 bg-orange-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                 {totalItems}
               </span>
             )}
@@ -57,7 +57,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white px-6 pb-4 space-y-3">
+        <div className="md:hidden border-t border-sky-200 bg-white px-6 pb-4 space-y-3">
           <Link href="/products" className="block text-sm font-medium" onClick={() => setMenuOpen(false)}>
             Products
           </Link>

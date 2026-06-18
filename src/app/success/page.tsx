@@ -11,7 +11,7 @@ export default function SuccessPage() {
       </p>
       <Link
         href="/"
-        className="inline-block rounded-md bg-gray-900 px-8 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
+        className="inline-block rounded-md bg-sky-600 px-8 py-3 text-sm font-semibold text-white hover:bg-sky-700 transition"
       >
         Back to Home
       </Link>
