@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <ellipse cx="200" cy="240" rx="100" ry="20" fill="#4b5563"/>
+  <path d="M100 240V200c0-55 45-100 100-100s100 45 100 100v40" fill="#6b7280"/>
+  <rect x="100" y="220" width="200" height="30" rx="4" fill="#4b5563"/>
+  <rect x="140" y="180" width="120" height="40" rx="4" fill="#374151"/>
+  <text x="200" y="340" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#6b7280">Snapback</text>
+</svg>

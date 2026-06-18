@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <path d="M120 120h160v180c0 8-4 12-12 12H132c-8 0-12-4-12-12V120z" fill="#1f2937"/>
+  <path d="M120 120l40-40h80l40 40" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  <rect x="120" y="120" width="30" height="120" rx="4" fill="#374151"/>
+  <rect x="250" y="120" width="30" height="120" rx="4" fill="#374151"/>
+  <line x1="200" y1="160" x2="200" y2="250" stroke="#f3f4f6" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="200" y="360" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#6b7280">Windbreaker</text>
+</svg>
